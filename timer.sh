@@ -17,10 +17,7 @@ case $sleep_args in
     s)
         sleep $sleep
         xdg-open "https://cdn4.vectorstock.com/i/1000x1000/43/03/finish-stopwatch-icon-clock-and-watch-timer-vector-11524303.jpg"
-        while 
-        do 
-        
-        done
+        exit
     ;;
 
     m)
