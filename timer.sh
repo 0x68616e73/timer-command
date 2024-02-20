@@ -16,6 +16,7 @@ clear
 
 case $sleep_args in
     s)
+<<<<<<< HEAD
         while [ $i -le $sleeptime ] 
         do
             remaintime=`expr $sleeptime - $i`
@@ -31,6 +32,11 @@ case $sleep_args in
                 i=$(( i + 1 ))
             fi
         done
+=======
+        sleep $sleep
+        xdg-open "https://cdn4.vectorstock.com/i/1000x1000/43/03/finish-stopwatch-icon-clock-and-watch-timer-vector-11524303.jpg"
+        exit
+>>>>>>> refs/remotes/origin/main
     ;;
 
     m)
